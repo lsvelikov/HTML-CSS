@@ -1,0 +1,53 @@
+body{
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 3em 3em;
+}
+body > h6{
+    padding-bottom: 2em;
+    border-bottom: 1px solid lightgray;
+}
+body > p:nth-child(9){
+    padding-bottom: 3em;
+    border-bottom: 1px solid lightgray;
+}
+body > ul > li:nth-child(2) > ul{
+    list-style: disc;
+}
+body > ul > li:nth-child(2) > ul > li:nth-child(2) > ul{
+    list-style: circle;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: start;
+    background-color: darkgrey;
+}
+th, td{
+    width: 33%;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+blockquote {
+    font-style: italic;
+    border-left: 5px solid rgb(221, 221, 221);
+    padding-left: 2em;
+    
+}
+blockquote p:first-child{
+    padding-top: 1em;
+}
+blockquote p:last-child{
+    padding-bottom: 2em;
+}
+blockquote p:nth-child(3) {
+    text-align: end;
+}
+body > p:nth-child(22){
+    border-top-left-radius: 1px solid black;
+}
+body > table > tbody > tr:nth-of-type(odd){
+    background-color: lightgrey;
+}

@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+   max-width: 1000px;
+    padding: 4em;
+    background-color: rgb(238, 238, 238);    
+ }
+
+ body > header{
+    border-bottom: 2px solid #443d3d;
+}
+
+header .site-title a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+header .site-title,
+header nav{
+    display: inline-block;
+}
+
+header nav{
+    display: inline;
+    text-align: end;
+}
+
+header nav ul{
+    padding: 0 0 0 10em;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: rgb(0, 102, 0);
+    padding: 0 0 0 0.5em;
+    
+}
+body > main > article > section > p:nth-child(7){
+    padding: 0.8em 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+body > main > aside{
+    margin-left: 4.5em;
+}
+body > main > aside > section > ul {
+    margin-left: 2em;
+    padding: 1em 0;
+}
+
+h1, h2{
+    padding: 1.5em 0 0.5em 0;
+}
+img{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.25);
+    border: 1px solid #CCC;
+}
+
+.second{
+    float: right;
+    border: 2.5px solid #000;
+    padding: 0.5em;
+    margin: 0 0 0.5em 0.5em;
+        
+}
+.first{
+    float: left;
+    border: 2.5px solid #000;
+    padding: 0.5em;
+    margin: 0 0.5em 0.5em 0;
+}
+
+p{
+    padding-top: 0.5em;
+}
+
+article, aside{
+    display: inline-block;
+}
+
+article{
+    width: 70%;
+}
+
+aside{
+    position: absolute;
+    margin: 2em 2em;
+}
+
+section nav ul{
+    padding: 0.7em 0 1em 2em;
+}
+
+section nav ul li a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+blockquote{
+    font-style: italic;
+    opacity: 0.7;
+    border-left: 3px solid #CCC;
+    max-width: 50%;
+    float: right;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+}
+blockquote p:nth-child(2){
+    padding-top: 0.8em;
+    text-align: end;
+}

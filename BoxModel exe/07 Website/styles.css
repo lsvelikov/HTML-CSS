@@ -1,0 +1,16 @@
+div{
+    width: 280px;
+    display: inline-block;
+    padding: 1em 1em 1em 2em;
+    background-color: #0A2C48;
+    color: #fff;
+    margin-top: 1.3em;
+    border-radius: 0.3em;
+}
+div:hover{
+    background-color: #2A4C68;;
+}
+p{
+    color: #c9d6ff;
+    font-size: 1.1em;
+}

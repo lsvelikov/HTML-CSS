@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #CCC;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0.8em 0.3em rgb(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+    
+}
+div{
+    display: block;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+}
+
+h3{
+    font: 1em/1.2 Georgia, serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 0.7em;
+    padding-left: 1.5em;
+    margin: 1em 0 0.5em;
+}
+p{
+    font-size: 18px;
+    padding-left: 1.5em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    margin-bottom: 4.5em;
+}
+button{
+    background-color: rgb(0, 153, 0);
+    display: block;
+    position: absolute;
+    bottom: 2em;
+    right: 1.5em;
+    border-color: rgb(22, 201, 70, 0.2);
+    border-radius: 0.4em;
+    padding: 0.7em 1.3em;
+
+}
+button a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}

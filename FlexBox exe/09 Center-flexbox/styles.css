@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5em;
+    width: 22em;
+    padding: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+}
+.card .title{
+    padding-bottom: 0.5em;
+}

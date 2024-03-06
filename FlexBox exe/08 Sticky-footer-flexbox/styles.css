@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    flex-direction: column;
+}
+.site{
+    width: 70em;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+footer{
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    margin-top: auto;
+}
+footer > p{
+    color: rgb(255, 255, 255);
+    padding: 1.4em;
+}
+
+.site-main > h2{
+    padding: 2.5em 0 0.5em 1em;
+}
+.title{
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+main p{
+    padding: 1em 1.5em;
+}
+body > div > main > p:nth-child(6){
+    padding-bottom: 2.5em;
+}
